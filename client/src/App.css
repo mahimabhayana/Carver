@@ -1,0 +1,86 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.ant-form-item label {
+  font-size: 16px;
+}
+
+.ant-input {
+  padding: 24px 30px 23px 20px;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+}
+
+.ant-btn {
+  font-size: 16px;
+  height: 49px;
+}
+
+.carver-header {
+  background-color: #FFF;
+  padding-top: 30px;
+  padding-left: 60px;
+  text-align: left;
+}
+
+.home {
+  height: 100vh;
+  background-image: url(http://amg.mercedesbenzofaustin.com/wp-content/uploads/2015/10/2017-E43-AMG-SEDAN.png);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 52%;
+}
+
+#home-body {
+  margin: 200px 0 50px 60px;
+  text-align: left;
+}
+
+#home-title { 
+  font-size: 60px;
+}
+
+.price {
+  text-align: right;
+  color: green;
+}
+
+.result-descr {
+  color: #000;
+  font-size: 16px;
+  text-align: right;
+}
+
+.result-descr > p {
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+#results-header {
+  background-color: #fff;
+  padding: 0px 0 0 60px;
+  text-align: left;
+}
